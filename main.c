@@ -44,7 +44,12 @@ int main()
     }
     if (code == 3)
     {
-        printf("");
+        printf("当前余额为:\n");
+        printf("%d\n",qian);
+        printf("取出成功，点击回车继续\n");
+        char x;
+        scanf("%c", &x);
+        scanf("%c", &x);
    }
     if (code == 4)
     {
