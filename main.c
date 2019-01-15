@@ -21,6 +21,7 @@ int main()
     }
     if (code == 2)
     {
+        printf("请输入要取出的金额\n");
     }
     if (code == 3)
     {
