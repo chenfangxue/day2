@@ -14,8 +14,8 @@ int main()
     {
         printf("1--存钱\n");
         printf("2--取钱\n");
-        printf("3--余额查询\n");
-        printf("4--退出系统\n");
+        printf("3--余额\n");
+        printf("4--退出\n");
         printf("请选择所需向项目符号\n");
         scanf("%d", &code);
 
@@ -24,7 +24,7 @@ int main()
             char x;
             printf("请输入要存入的金额");
             scanf("%d", &cun);
-            qian += jine;
+            qian += cun;
             printf("存入成功，点击回车继续\n");
             scanf("%c", &x);
             scanf("%c", &x);
@@ -36,7 +36,7 @@ int main()
             scanf("%d", &qu);
             if (qu <= qian)
             {
-                qian = qian - jine;
+                qian = qian - qu;
                 printf("取钱成功，点击回车继续\n");
             }
             else
