@@ -1,23 +1,31 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     printf("进入存钱取钱管理系统\n");
 
     return 0;
+    int qian = 0;
     int code;
-    if(code == 1){
-
+    int cun;
+    int jine;
+    if (code == 1)
+    {
+        printf("请输入要存入的金额\n"); 
+        scanf("%d",&cun);
+        qian+=jine;
+        printf("存入成功，点击回车继续\n");
+        scanf("%c",&x);
+        scanf("%c",&x);
     }
-    if(code == 2){
-        
+    if (code == 2)
+    {
     }
-    if(code == 3){
-        
+    if (code == 3)
+    {
     }
-    if(code == 4){
-        
+    if (code == 4)
+    {
     }
-
-
 }
